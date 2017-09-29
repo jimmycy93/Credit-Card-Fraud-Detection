@@ -4,13 +4,13 @@ A project on techniques with imbalanced classification
 ## Project Introduction
 It is often that the data we retrieve have imbalanced label and we are asked to make classification. These scenarios are troublesome since not only the models we usally use bring poor result, but also the evaluation metric we often used, accuracy, is not adequate for imbalanced data sets due to the impact of the minority class. This project aims to demonstrate some techniques used to combat these situations, such as resampling or cluster before predicting, as well as using PR (Precision-Recall) curve to evaluate model. The approaches for the project are :
 
-    1. Randomly split the dataset into train and test.
-    2. Do basic EDA and feature engineering.
-    3. Predict and evaluate with new-featured dataset.
-    4. Resample the dataset. 
-    5. Predict and evaluate with resampled dataset.
-    6. Try other different models.
-    7. Compare the difference between the predictions and choose the best model.
+  1. Randomly split the dataset into train and test.
+  2. Do basic EDA and feature engineering.
+  3. Predict and evaluate with new-featured dataset.
+  4. Resample the dataset. 
+  5. Predict and evaluate with resampled dataset.
+  6. Try other different models.
+  7. Compare the difference between the predictions and choose the best model.
 
 ## Data Description
 The project take use of The [Credit Card Fraud Data on Kaggle](https://www.kaggle.com/dalpozz/creditcardfraud/data), the data description on the webpage is as followed :
